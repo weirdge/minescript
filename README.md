@@ -1,4 +1,4 @@
-> [!info]
+> [!NOTE]
 > To run these scripts you'll need the [Minescript mod](https://minescript.net/)
 > All the scripts have to be placed in the `\minecraft\minescript` folder
 
@@ -6,11 +6,12 @@
 > Not all scripts are optimized yet
 
 ## [Discover V1](discoverWorldV1.py)
-> [!INFO]  
+> [!NOTE]  
 > - You have to have Op rights to use this script since it relies on `/tp`
 >- The config variable still have to be set in the file. V2 will fix this
 
 This program uses teleports to discover the world. It can be useful for WorldMap or Distant Horizons/Voxy.
+
 ![How the program works](/src/gridV1.png)
 
 ---
@@ -44,15 +45,19 @@ Utility scripts
 
 ### [Get player rotation](getPlayerRotation.py)
 This script simply outputs the players rotation
+
 Usage: `\getPlayerRotation`
 
 ### [Kill bots](killBots.py)
 This will kill all bots that match the given arguments
+
 Usage: `\killBots <name> <amount>`
+
 Example: `\killBots x 4`
 
 ---
 # Todo
 - [ ] Optimize [Babysit](./babysitSweeperV2.py)
 - [ ] Do [discoverWorld](./discoverWorldV1.py) V2
+
 ![discoverV2](./src/gridV2.png)
