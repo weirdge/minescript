@@ -2,4 +2,5 @@ system/
 test/
 dev/
 srcsrc/
+/blockpacks
 config.txt

@@ -15,13 +15,14 @@ This program uses teleports to discover the world. It can be useful for WorldMap
 ![How the program works](/src/gridV1.png)
 
 ---
-## [Babysit Sweepers V2](babysitSweeperV2.py)
+## [Babysit Sweepers V3](babySitSweeperV3.py)
 >[!NOTE]
 > - This script requires the [Carpet mod](https://modrinth.com/mod/carpet) and it's [/player](https://github.com/gnembon/fabric-carpet/wiki/Commands#player) command
 > - WorldEater start coordinates have to be set in the file config.
 
 >[!warning]
-> This script only has a basic error handling!
+> - **V2 has bugs and is not working correctly, use V3!**
+> - This script only has a basic error handling!
 
 This script will spawn bots along the length of the WorldEater. This is good in case a sweeper is stuck and you don't want to babysit it. Especially useful for big Worldeaters/Perimeters.
 
@@ -32,7 +33,7 @@ Enter renderDistance, Worldeater length and bot spawn height.
 
 1. unstuck the sweeper
 2. look into the direction where the sweeper is going to head
-3. start the bot spawning script by typing `\babysitSweeperV2 <name>`
+3. start the bot spawning script by typing `\babysitSweeperV3 <name>`
 4. start the Sweeper
 5. once the sweeper is docked, kill all the bots by using the [\kill](/README.md#kill-bots) script.
 
@@ -57,7 +58,7 @@ Example: `\killBots x 4`
 
 ---
 # Todo
-- [ ] Optimize [Babysit](./babysitSweeperV2.py)
+- [ ] Add Error handling ([Babysit](./babysitSweeperV2.py))
 - [ ] Do [discoverWorld](./discoverWorldV1.py) V2
 
 ![discoverV2](./src/gridV2.png)
