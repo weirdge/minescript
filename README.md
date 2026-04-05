@@ -5,15 +5,6 @@
 > [!WARNING]
 > Not all scripts are optimized yet
 
-## [Discover V1](discoverWorldV1.py)
-> [!NOTE]  
-> - You have to have Op rights to use this script since it relies on `/tp`
->- The config variable still have to be set in the file. V2 will fix this
-
-This program uses teleports to discover the world. It can be useful for WorldMap or Distant Horizons/Voxy.
-
-![How the program works](/src/gridV1.png)
-
 ---
 ## [Babysit Sweepers V3](babySitSweeperV3.py)
 >[!NOTE]
@@ -41,15 +32,40 @@ Enter renderDistance, Worldeater length and bot spawn height.
 
 If you come across edge cases where it does not work, please open an issue [here](https://github.com/weirdge/minescript/issues).
 
+---
+
+## [Trench bot spawner](trenchSpawn.py)
+>[!NOTE]
+> - This script requires the [Carpet mod](https://modrinth.com/mod/carpet) and it's [/player](https://github.com/gnembon/fabric-carpet/wiki/Commands#player) command
+
+Used for spawning bots to dig bottom trench of Trenchers
+
+Usage: `\trenchSpawn <name> <amount>`
+
+Example: `\trenchSpawn n 12`
+
+![Trench image](/src/trenchSpawn.png)
+
+[Trench image 1](/src/trench1.png)
+
+[Trench image 2](/src/trench2.png)
+
+---
+
+## [Discover V1](discoverWorldV1.py)
+> [!NOTE]  
+> - You have to have Op rights to use this script since it relies on `/tp`
+>- The config variable still have to be set in the file. V2 will fix this
+
+This program uses teleports to discover the world. It can be useful for WorldMap or Distant Horizons/Voxy.
+
+![How the program works](/src/gridV1.png)
+
+
 
 ---
 ## Misc
 Utility scripts
-
-### [Get player rotation](getPlayerRotation.py)
-This script simply outputs the players rotation
-
-Usage: `\getPlayerRotation`
 
 ### [Kill bots](killBots.py)
 This will kill all bots that match the given arguments
@@ -57,6 +73,12 @@ This will kill all bots that match the given arguments
 Usage: `\killBots <name> <amount>`
 
 Example: `\killBots x 4`
+
+### [Get player rotation](getPlayerRotation.py)
+This script simply outputs the players rotation
+
+Usage: `\getPlayerRotation`
+
 
 ---
 # Todo
