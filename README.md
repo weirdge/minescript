@@ -80,6 +80,7 @@ Utility scripts
 ### Kill bots
 - [Minescript](./minescript/killBots.py)
 - [Scarpet](#) Coming Soon
+
 This will kill all bots that match the given arguments
 
 Usage: `\killBots <name> <amount>`
@@ -89,6 +90,7 @@ Example: `\killBots x 4`
 ### Get player rotation
 - [Minescript](./minescript/getPlayerRotation.py)
 - [Scarpet](./scarpet/getPlayerRotation.sc)
+
 This script simply outputs the players rotation
 
 **Usage:** 
